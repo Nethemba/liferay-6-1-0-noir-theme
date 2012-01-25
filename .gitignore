@@ -80,6 +80,3 @@ capybara-*html
 .rvmrc
 .rvmrc.*
 
-
-WEB-INF/
-images/
