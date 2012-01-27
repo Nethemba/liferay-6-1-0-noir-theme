@@ -45,19 +45,9 @@ body {
 	width: 960px;
 }
 
-#skip-to-content,
 #sign-in {
 	color: #FFF;
 	right: 2em;
-}
-
-#skip-to-content:active,
-#skip-to-content:focus {
-	clip: auto;
-}
-
-#skip-to-content {
-	top: 1em;
 }
 
 #sign-in {
@@ -447,3 +437,6 @@ p .image {
 	float: right;
 }
 
+#skip-to-content {
+    display: none;
+}
