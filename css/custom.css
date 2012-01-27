@@ -435,7 +435,7 @@ span.has-childs {
 	display: none;
 }
 
-#ykmt_socialBookmarks {
+#ykmt_socialBookmarks, .taglib-social-bookmarks {
 	background: none;
 }
 

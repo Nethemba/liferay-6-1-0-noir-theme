@@ -85,8 +85,8 @@
 </div>
 
 </body>
+$theme.include($bottom_include)
 #if($is_signed_in)
-	$theme.include($bottom_include)
 #else
 <script type="text/javascript">
 /*<![CDATA[*/
