@@ -51,6 +51,24 @@
 				</div>
 			#end
 
+			<form action="https://www.nethemba.com/search"
+			class="aui-form  yui3-widget aui-form-validator aui-form-validator-content" method="get" style="position: abolute; top: 150px; right: 10px;">
+			  <input name="p_p_id" value="3" type="hidden">
+			  <input name="_3_struts_action" value="/search/search" type="hidden">
+			  <div class="aui-fieldset-content ">
+			    <span class="aui-field aui-field-text aui-field-inline">
+			      <span class="aui-field-content"> <span class="aui-field-element ">
+			        <input class="aui-field-input aui-field-input-text" id="_3_keywords" name="_3_keywords" value="" size="30" type="text">
+			        </span> </span>
+			      </span>
+			    </span>
+			    <span class="aui-button aui-button-image">
+			      <span class="aui-button-content">
+			        <input class="aui-button-input aui-button-input-image" value="" title="search" src="https://www.nethemba.com/noir-theme/images/common/search.png" align="absmiddle" border="0" type="image">
+			      </span>
+			    </span>
+			  </div>
+			</form>
 
 			#if ($has_navigation)
 				#parse ("$full_templates_path/navigation.vm")
